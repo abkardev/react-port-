@@ -1,0 +1,36 @@
+{
+    "projects" : [
+        {
+       "title":"Wejhat Transportation",
+       "description": "wejhat it's saudi specialised in logistects and inverntory. website it's offer a services for the companies such as invetories, packaging and transport ",
+       "desktopVersionImage":"/portfolio/projects-images/wejhat-d.png",
+       "mobileVersionImage":"/portfolio/projects-images/wejhat-mm.jpg",
+       "url":"https://wejhattransportation.com.sa/en"
+     },
+     {
+       
+       "title":"island sands",
+       "description":"Islesand it's contracting company that over for visitor more information and Quotation offer",
+       "desktopVersionImage":"/portfolio/projects-images/islesands-d.png",
+       "mobileVersionImage":"/portfolio/projects-images/islesands-m.jpg",
+       "url":"https://islesands.com"
+     },
+     {
+       
+       "title": "Brensers",
+       "description":"it's e-commarce site sells clothes, shoes and phone accessories.",
+       "desktopVersionImage":"/portfolio/projects-images/brensers-d.png",
+       "mobileVersionImage":"/portfolio/projects-images/brensers-m.jpg",
+       "url":"https://brensers.com"
+     },
+     {
+       
+       "title":"Kaiser",
+       "description":"it's german website provide a upholstery services for customers",
+       "desktopVersionImage":"/portfolio/projects-images/polis-d.png",
+       "mobileVersionImage":"/portfolio/projects-images/polis-m.jpg",
+       "url":"https://abkardev.github.io/kaiser/"
+     }
+    ]
+   
+}

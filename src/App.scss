@@ -1,0 +1,49 @@
+$primarey-color: #d4af37;
+@import 'loaders.css/src/animations/ball-grid-pulse.scss';
+@import 'animate.css';
+@import './responsive-style/variables.scss';
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2')
+}
+
+input ,textarea {
+  font-family: 'helvetica Neue';
+}
+
+.loader-hidden {
+  display: none;
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  color:$primarey-color;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+
+    @include small-up{
+      width:20px;
+      height:20px;
+      margin-top:50vh;
+      margin-left:42%;       
+    }
+  
+}

@@ -1,0 +1,115 @@
+.projects-page {
+  
+    height: 100%;
+    width:100%;
+    
+
+    .headline {
+      position: absolute;
+      left: 45%;
+      top: 10%;
+      transform: translateY(-50%);
+      max-height: 90%;
+       
+    }
+  
+    h1 {
+      color: #fff;
+      font-size: 56px;
+      line-height: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+  
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
+  
+      &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
+    }
+  
+    h2 {
+      color: #8d8d8d;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+  
+    .projects-container{
+      position: relative;
+      width:85%;
+      height: 100%;
+      margin: 0 auto;
+      transform: translateY(7%);
+      padding: 20px;
+
+      .project-box{
+       width:100%;
+       height: 100%;
+       display:flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       margin: 30px 0;
+
+        .project-text{
+          width:35%;
+          color:#fff;
+
+
+          .project-title{
+            font-size: 30px;
+          }
+          .project-description{
+            font-size: 16px;
+            width: 100%;
+
+          }
+        }
+        .project-images{
+          width:50%;
+          display:flex;
+          justify-content: space-around;
+          gap:15px;
+        
+          .desktop-version-image img{
+            width:70%;
+            img {
+              width: 100%;
+              height:100%;
+            object-fit: cover
+            }
+          }
+          .mobile-version-image{
+            width:30%;
+            
+            img {
+              width: 100%;
+              height:100%;
+            object-fit: cover
+            }
+          }
+        }
+    }
+
+    }
+  }
