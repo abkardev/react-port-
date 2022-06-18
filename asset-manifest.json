@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-port-/static/css/main.05a554d2.css",
+    "main.js": "/react-port-/static/js/main.49c3daf7.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-port-/static/js/787.a2cb61a6.chunk.js",
+    "static/media/logoa1a.png": "/react-port-/static/media/logoa1a.b9684bd15972c02be011.png",
+    "static/media/helvetica-neu.ttf": "/react-port-/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/react-port-/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/react-port-/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/react-port-/index.html",
+    "main.05a554d2.css.map": "/react-port-/static/css/main.05a554d2.css.map",
+    "main.49c3daf7.js.map": "/react-port-/static/js/main.49c3daf7.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-port-/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05a554d2.css",
+    "static/js/main.49c3daf7.js"
+  ]
+}
