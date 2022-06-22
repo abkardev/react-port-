@@ -29,7 +29,7 @@ const Portfolio = () => {
                     return (
                         <div className="image-box" key={idx}>
                           <img 
-                          src={port.mobileVersionImage}
+                          src={port.mobileImage}
                           className="portfolio-image"
                           alt="portfolio"/>
                           <div className='content'>
