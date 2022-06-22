@@ -28,7 +28,7 @@
        "title":"Kaiser",
        "description":"it's german website provide a upholstery services for customers",
        "desktopImage":"/portfolio/projects-images/polis-d.png",
-       "mobileImage":"public/portfolio/1/one.png",
+       "mobileImage":"/portfolio/1/one.png",
        "url":"https://abkardev.github.io/kaiser/"
      }
     ]
