@@ -16,8 +16,18 @@
      left: 0;
      width: 263px;
     height: 400px;
+
+
+
     }
-  
+    svg {
+      width: 81%;
+      height: auto;
+      bottom: 0;
+      transform:translate(-1%,26%) rotateZ(30deg) !important;
+    }
+
+
     .solid-logo {
       position: absolute;
       top: auto;
@@ -26,12 +36,16 @@
       left: 0;
       margin: auto;
       width: 100%;
-  
-      opacity:1;
-      transform:translate(-11%,43%) rotateZ(28deg) !important;
+      opacity:0;
+      transform:translate(-4%,43%) rotateZ(28deg) !important;
       z-index: 1;
       
     }
+  }
+
+  .svg-container {
+    stroke: #d4af37;
+    stroke-width: 10;
   }
   
   
